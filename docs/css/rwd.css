@@ -1,0 +1,81 @@
+
+@media (max-width:1400px){
+    body{
+        background: url(../images/bg-shape.png) no-repeat right top 37px;   
+    }
+}
+@media (max-width:1300px){
+    header nav{
+        flex:auto;
+        margin:0 40px;
+    }
+    .aboutus{
+        flex:auto;
+        flex-wrap: wrap;
+    }
+    .aboutus img{
+        margin:0;
+        width:100%;
+        margin-bottom: 120px;
+    }
+    .aboutus .text{
+        max-width:800px;
+    }
+}
+@media (max-width:1090px){
+    header nav ul.standard{
+        display:none;
+    }
+    header nav.active ul.flexBlock{
+        display:block;
+        position:absolute;
+        background-color:#fff;
+        left:30px;
+        height:calc(100vh - 190px);
+        right:30px;
+        top:100px;
+        border-radius:15px;
+        padding:20px;
+        box-shadow: 0px 5px 10px 0px rgb(25 45 51 / 15%);
+    }
+    header nav li+li{
+        margin:0 auto;
+    }
+    header nav ul a{
+        font-size:24px;
+        min-height:calc((100vh - 190px)/5);
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .mobile{
+        display: inline-block;
+    }
+}
+@media (max-width:560px){
+    header .btn{
+        width:60px;
+        font-size:0;
+    }
+    header .btn i{
+        font-size:30px;
+        margin-left:0;
+    }
+    .startBox h1{
+        font-size: 10vw;
+    }
+}
+@media (max-width:530px){
+    footer nav a{
+        font-size:12px;
+    }
+    footer .h2{
+        font-size: 30px;
+    }
+}
+@media (max-width:400px){
+    header .btn{
+        display:none;
+    }
+}
+/* align=self:stretch */

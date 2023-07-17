@@ -1,0 +1,239 @@
+body{
+    background: url(../images/start-image.png) no-repeat right 128px top 220px,
+                url(../images/bg-shape.png) no-repeat right top 37px;
+    
+}
+header.centerBigger{
+    margin-top: 50px;
+}
+header .btn{
+    width: 200px;
+    height: 60px;
+    color: var(--red);
+    background-color: var(--white);
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 0px rgb(25 45 51 / 15%);
+}
+header .btn i{
+    margin-left: 15px;
+    font-size: 25px;
+}
+header .lang{
+    color: var(--blue);
+    font-size: 18px;
+    margin-right: 45px;
+}
+nav li+li {
+    margin-left: 3.8vw; 
+}
+nav a:hover{
+    color:orange;
+}
+#navmobile{
+    display: none;
+}
+nav a,
+header .lang{
+    color: var(--blue);
+    font-size: 18px;
+    font-weight: 600;
+}
+.startBox{
+    height: calc(100vh - 110px);
+}
+.startBox h1{
+    font-size: 73px;
+    color: var(--blue);
+    line-height: 1.4em;
+}
+.startBox p{
+    max-width: 560px;
+    font-size: 18px;
+    color: var(--grey);
+    line-height: 1.7em;
+    margin: 25px 0 40px;
+}
+.startBox div a+a{
+    margin-left: 39px;
+}
+.offer{
+    padding: 0;
+    max-width: 1230px;
+    flex-wrap: wrap;
+}
+.offer > *{
+    width: 250px;
+    margin: 30px;
+    flex: auto;
+}
+.offer .intro h2{
+    margin-bottom: 40px;
+}
+.offer .item{
+    min-height: 380px;
+    padding: 28px 30px 50px;
+    background-color: var(--white);
+    box-shadow: 0px 5px 10px 0px rgb(25 45 51 / 15%);
+}
+.offer h3{
+    margin: 56px 0 25px;
+}
+.offer p{
+    font-size: 14px;
+    color: var(--blue);
+    line-height: 1.9em;
+}
+.aboutus{
+    margin-top: 230px;
+}
+.aboutus img{
+    margin: 0 120px 0 -168px;
+}
+.aboutus p{
+    margin: 44px 0;
+    color: var(--blue);
+    font-size: 18px;
+}
+.works{
+    margin-top: 170px;
+}
+.news .list,
+.works .list{
+    flex-wrap: wrap;
+    margin: 60px -15px 40px;
+
+}
+.works .item,
+.news .item{
+    min-height: 280px;
+    width: 300px;
+    background-color: var(--llgray);
+    flex: auto;
+    margin: 15px;
+}
+.news{
+    margin-top: 130px;
+}
+.news .item{
+    background-color: var(--white);
+    box-shadow: 0px 5px 10px 0px rgb(25 44 51 / 15%);
+    padding: 54px 44px 74px;
+    box-sizing: border-box;
+    position: relative ;
+}
+
+.news h3{
+    font-size: 18px;
+    color: var(--blue);
+    margin-bottom: 16px;
+}
+
+.news .date{
+    font-size: 14px;
+    color: var(--grey);
+    margin-bottom: 33px;
+}
+
+.news .text{
+    color: var(--blue);
+    font-size: 18px;
+    line-height: 1.9em;
+}
+.news .item:after{
+    content: "\f170";
+    color: var(--red);
+    font-size: 25px;
+    font-family: uicons-regular-rounded !important;
+    position: absolute;
+    right: 30px;
+    bottom: 44px;
+}
+.news .item a{
+    position: absolute;
+    font-size: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.news .item:hover{
+    background-color: var(--red);
+}
+.news .item:hover > *,
+.news .item:hover:after{
+    color: var(--white)
+}
+.contactus{
+    margin-top: 120px;
+}
+.contactus form{
+    flex-wrap: wrap;
+    margin: 34px -16px -16px;
+}
+.contactus form >*{
+    width:300px;
+    flex: auto;
+    margin: 16px;
+}
+.contactus input,
+.contactus textarea{
+    height: 60px;
+    background-color: #f4fafe;
+    border: none;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--blue);
+}
+.contactus input::placeholder,
+.contactus textarea::placeholder{
+    color: var(--blue);
+}
+.contactus textarea{
+    width: 100%;
+    padding: 20px;
+    height: 120px;
+    margin-bottom: 44px;
+    resize: none;
+}
+footer{
+    background-color: var(--blue);
+    padding: 60px 30px 40px;
+    margin-top: 68px;
+}
+footer nav{
+    margin: 40px 0 50px;
+}
+footer nav a{
+    color: var(--white);
+}
+footer p{
+    font-size: 14px;
+    color: var(--white);
+    margin-bottom: 30px;
+}
+footer .social li+li{
+    margin-left: 3.8vw;
+}
+footer .social a{
+    font-size: 38px;
+    color: var(--white);
+}
+.ah:hover{
+    color:var(--blue);
+}
+.social a{
+    margin-right: 30px;
+}
+/* 
+.blogbox .item:has(i:hover){
+    background-color:var(--red);
+ }
+*/
+.transition{
+    animation: delay-animation 0.2s;
+    animation-delay:0.2s;
+}
+.mobile{
+    display: none;
+}

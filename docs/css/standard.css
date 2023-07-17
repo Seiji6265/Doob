@@ -1,0 +1,116 @@
+:root{
+    --red: #ff3946;
+    --blue: #314584;
+    --grey: #6e757a;
+    --lgrey: #bbbbbc;
+    --llgray: #c3d0d8;
+    --white: #fff;
+    --black: #000;
+    --font: 'Work Sans';
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: var(--font), sans-serif;
+    text-decoration: none;
+    outline: none;
+}
+
+a, img, :before, :after, .transition{
+    transition: all 200ms linear;
+}
+i{
+    line-height: 0;
+}
+
+.centerBigger,
+.center{
+    max-width: 1670px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.center{
+    max-width: 1170px;
+}
+
+
+.flexBlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexLeft{
+    justify-content: flex-start;
+}
+.flexCenter{
+    justify-content: center;
+}
+.flexRight{
+    justify-content: flex-end;
+}
+.flexColumn{
+    flex-direction: column;
+}
+.flexTop{
+    align-items: flex-start;
+}
+.flexBottom{
+    align-items: flex-end;
+}
+.buttonLink,
+    .buttonLinkSmall{
+    height: 60px;
+    display: inline-flex;
+    min-width: 200px;
+    background-color: var(--red);
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 28px;
+    border: none;
+    cursor: pointer;
+}
+.buttonLinkSmall{
+    font-size: 14px;
+    height: 46px;
+    min-width: 156px;
+}
+.buttonStandard{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--blue);
+}
+.h2{
+    font-size: 45px;
+    color: var(--blue);
+    line-height: 1.4;
+
+}
+h2.red{
+    color: var(--red);
+}
+.h3{
+    font-size: 27px;
+    color: var(--blue);
+    line-height: 1.4;
+}
+.h4{
+    color: var(--red);
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.h4.white{
+    color: var(--white);
+}
+div.arrows i{
+    font-size: 25px;
+    color: var(--lgrey);
+}
+div.arrows a+a i{
+    margin-left: 20px;
+}
+
+
+
