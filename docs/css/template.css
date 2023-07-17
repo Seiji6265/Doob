@@ -225,11 +225,6 @@ footer .social a{
 .social a{
     margin-right: 30px;
 }
-/* 
-.blogbox .item:has(i:hover){
-    background-color:var(--red);
- }
-*/
 .transition{
     animation: delay-animation 0.2s;
     animation-delay:0.2s;
